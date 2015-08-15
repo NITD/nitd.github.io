@@ -65,10 +65,25 @@ body {
     text-transform: uppercase;
 }
 
+@media all and (max-width: 900px) {
+    body {  
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    body {  
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
 div {
     position: relative;
     top: 50%;
     margin-top: -3.7em;
+    padding: 0 1em;
     text-align: center;
 }
 
