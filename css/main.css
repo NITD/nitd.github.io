@@ -1,0 +1,37 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font: 400 12px/18px 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+
+.center-wrap:before {
+	content: '';
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.center-wrap {
+	font-size: 0;
+	text-align: center;
+}
+.center-box {
+	font-size: 1rem;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+h1 {
+	font: inherit;
+	font-size: 3rem;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+@media all and (min-width: 800px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
